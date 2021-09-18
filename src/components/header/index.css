@@ -1,0 +1,23 @@
+.HeaderBlock{
+    box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
+    display:flex;
+    height:100px;
+    padding: 30px;
+    border-radius: 0 0 29px 29px;
+}
+
+.HeaderBlock > div{
+    align-self: center;
+    margin-left: auto;
+}
+
+.HeaderBlock > ul{
+    list-style: none;
+}
+.HeaderBlock > ul > li{
+    line-height: 30px;
+    display: flex;
+}
+.HeaderBlock > ul > li > img{
+    margin-right: 10px;
+}
