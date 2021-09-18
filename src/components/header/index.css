@@ -11,6 +11,10 @@
     margin-left: auto;
 }
 
+.HeaderBlock > div > div{
+    margin-bottom: 0px;
+}
+
 .HeaderBlock > ul{
     list-style: none;
 }

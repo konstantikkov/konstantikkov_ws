@@ -4,6 +4,9 @@ import saoirse_face_shy from './saoirse_face_shy.svg'
 import saoirse_face_angry from './saoirse_face_angry.svg'
 
 
+import balloon_1 from './balloon_1.svg'
+import balloon_2 from './balloon_2.svg'
+
 import telegram from './telegram.svg'
 import discord from './discord.svg'
 import mail from './mail.svg'
@@ -28,5 +31,7 @@ export const Images = {
     ["saoirse_face_angry.svg"]:saoirse_face_angry,
     ["telegram.svg"]: telegram,
     ["discord.svg"]: discord,
-    ["mail.svg"]: mail
+    ["mail.svg"]: mail,
+    ["balloon_1.svg"]:balloon_1,
+    ["balloon_2.svg"]:balloon_2
 }
