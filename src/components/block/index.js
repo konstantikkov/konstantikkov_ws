@@ -13,9 +13,7 @@ export const Block = ({content}) => {
                         <div className='Text'>
                             {content.content[0].text.map((text)=>{
                                 return(
-                                    <p>
-                                        {text}
-                                    </p>
+                                        text
                                 )
                             })}
                         </div>
@@ -31,10 +29,7 @@ export const Block = ({content}) => {
                         <div className='Header'>{content.content[0].header}</div>
                         <div className='Text'>
                             {content.content[0].text.map((text)=>{
-                                return(
-                                    <p>
-                                        {text}
-                                    </p>
+                                return(text
                                 )
                             })}
                         </div>
@@ -47,10 +42,7 @@ export const Block = ({content}) => {
                         <div className='Header'>{content.content[0].header}</div>
                         <div className='Text'>
                             {content.content[0].text.map((text)=>{
-                                return(
-                                    <p>
-                                        {text}
-                                    </p>
+                                return(text
                                 )
                             })}
                         </div>
@@ -66,10 +58,7 @@ export const Block = ({content}) => {
                         <div className='Header'>{content.content[0].header}</div>
                         <div className='Text'>
                             {content.content[0].text.map((text)=>{
-                                return(
-                                    <p>
-                                        {text}
-                                    </p>
+                                return(text
                                 )
                             })}
                         </div>
@@ -98,10 +87,7 @@ export const Block = ({content}) => {
                             <div className='Header'>{content.content[0].header}</div>
                             <div className='Text'>
                                 {content.content[0].text.map((text)=>{
-                                    return(
-                                        <p>
-                                            {text}
-                                        </p>
+                                    return(text
                                     )
                                 })}
                             </div>

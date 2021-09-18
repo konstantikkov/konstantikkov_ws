@@ -22,7 +22,9 @@
 body{
     font-family: Montserrat;
 }
-
+p{
+    margin-top: 30px;
+}
 .Main{
     max-width: 1000px;
     margin:auto;
