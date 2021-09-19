@@ -1,0 +1,112 @@
+.Plate{
+    width:100%;
+    position: relative;
+    z-index: -20;
+}
+.balloon{
+z-index: -1;
+}
+
+.Saoirse{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    z-index: 7;
+}
+
+._bal1{
+    position: absolute;
+    width: 10%;
+    top:500px;
+    left: 5%;
+    animation: move1 1s ease;
+    animation-fill-mode: forwards;
+}
+._bal2{
+    position: absolute;
+    width: 10%;
+    top:500px;
+    left: 20%;
+    animation: move2 1s ease;
+    animation-fill-mode: forwards;
+}
+._bal3{
+    position: absolute;
+    width: 10%;
+    top:500px;
+    left: 30%;
+    animation: move3 1s ease;
+    animation-fill-mode: forwards;
+}
+._bal4{
+    position: absolute;
+    width: 10%;
+    top:500px;
+    left: 65%;
+    animation: move4 1s ease;
+    animation-fill-mode: forwards;
+}
+._bal5{
+    position: absolute;
+    width: 10%;
+    top:500px;
+    left: 75%;
+    animation: move5 1s ease;
+    animation-fill-mode: forwards;
+}
+._bal6{
+     position: absolute;
+    width: 10%;
+    top:500px;
+     left:85%;
+     animation: move6 1s ease;
+    animation-fill-mode: forwards;
+ }
+
+@keyframes move1 {
+
+    from {
+    }
+    to {
+        top:100px;
+    }
+}
+@keyframes move2 {
+    from {
+
+    }
+    to {
+        top:190px;
+    }
+}
+@keyframes move3 {
+    from {
+
+    }
+    to {
+        top:50px;
+    }
+}
+@keyframes move4 {
+    from {
+
+    }
+    to {
+        top:100px;
+    }
+}
+@keyframes move5 {
+    from {
+
+    }
+    to {
+        top:230px;
+    }
+}
+@keyframes move6 {
+    from {
+    }
+    to {
+        top:150px;
+    }
+}
