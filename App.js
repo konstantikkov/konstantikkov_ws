@@ -8,11 +8,10 @@ const app = express()
 app.use(express.json({ extended: true }))
 
 if(process.env.NODE_ENV==='production'){
-    app.use('/', express.static(path.join('konstantikkov_ws', 'client', 'build')));
+    app.use('/', express.static(path.join('client', 'build')));
 
     app.get('*', (req, res)=>{
-        console.log(__dirname)
-        res.sendFile(path.resolve('konstantikkov_ws', 'client', 'build', 'index.html'))
+        res.sendFile(path.resolve('client', 'build', 'index.html'))
     })
 }
 
