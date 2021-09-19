@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d21c3a36.chunk.css",
+    "main.js": "/static/js/main.199e715b.chunk.js",
+    "main.js.map": "/static/js/main.199e715b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.168bb44e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.168bb44e.js.map",
+    "static/js/2.a24decaf.chunk.js": "/static/js/2.a24decaf.chunk.js",
+    "static/js/2.a24decaf.chunk.js.map": "/static/js/2.a24decaf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d21c3a36.chunk.css.map": "/static/css/main.d21c3a36.chunk.css.map",
+    "static/js/2.a24decaf.chunk.js.LICENSE.txt": "/static/js/2.a24decaf.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Montserrat_Regular.087334ca.ttf",
+    "static/media/balloon_1.7e1692d9.svg": "/static/media/balloon_1.7e1692d9.svg",
+    "static/media/balloon_2.72d96f94.svg": "/static/media/balloon_2.72d96f94.svg",
+    "static/media/discord.07636a7d.svg": "/static/media/discord.07636a7d.svg",
+    "static/media/mail.137fdfa6.svg": "/static/media/mail.137fdfa6.svg",
+    "static/media/saoirse_face_angry.c07b8536.svg": "/static/media/saoirse_face_angry.c07b8536.svg",
+    "static/media/saoirse_face_happy.e1ef1225.svg": "/static/media/saoirse_face_happy.e1ef1225.svg",
+    "static/media/saoirse_face_shy.26206289.svg": "/static/media/saoirse_face_shy.26206289.svg",
+    "static/media/saoirse_face_surprise.a896fb4a.svg": "/static/media/saoirse_face_surprise.a896fb4a.svg",
+    "static/media/saoirse_happy.d008fca7.svg": "/static/media/saoirse_happy.d008fca7.svg",
+    "static/media/saoirse_logo.cc820b52.svg": "/static/media/saoirse_logo.cc820b52.svg",
+    "static/media/saoirse_point_at.1c8b0856.svg": "/static/media/saoirse_point_at.1c8b0856.svg",
+    "static/media/saoirse_question.11b3dc0b.svg": "/static/media/saoirse_question.11b3dc0b.svg",
+    "static/media/saoirse_shy.ce328a9d.svg": "/static/media/saoirse_shy.ce328a9d.svg",
+    "static/media/telegram.9f31e661.svg": "/static/media/telegram.9f31e661.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.168bb44e.js",
+    "static/js/2.a24decaf.chunk.js",
+    "static/css/main.d21c3a36.chunk.css",
+    "static/js/main.199e715b.chunk.js"
+  ]
+}
