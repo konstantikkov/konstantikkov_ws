@@ -1,99 +1,23 @@
 import React from 'react'
 import {Images} from '../../images'
 import  './index.css'
+import {BlockWithout} from "./blockWithout";
+import {BlockLeft} from "./blockLeft";
+import {BlockRight} from "./blockRight";
+import {BlockMiddle} from "./blockMiddle";
+import {BlockInside} from "./blockInside";
 
 export const Block = ({content}) => {
-    console.log(content)
     switch(content.type){
         case "block without":
-            return(
-                <div className='Block'>
-                    <div className='TextBlock'>
-                        <div className='Header'>{content.content[0].header}</div>
-                        <div className='Text'>
-                            {content.content[0].text.map((text)=>{
-                                return(
-                                        text
-                                )
-                            })}
-                        </div>
-                    </div>
-                </div>);
+            return(<BlockWithout content={content}/>);
         case "block left":
-            return(
-                <div className='Block'>
-                    <div className='ImageBlock'>
-                        <img src={Images[content.images[0]]}/>
-                    </div>
-                    <div className='TextBlock'>
-                        <div className='Header'>{content.content[0].header}</div>
-                        <div className='Text'>
-                            {content.content[0].text.map((text)=>{
-                                return(text
-                                )
-                            })}
-                        </div>
-                    </div>
-                </div>);
+            return(<BlockLeft content={content} image={Images[content.images[0]]}/>);
         case "block right":
-            return(
-                <div className='Block'>
-                    <div className='TextBlock'>
-                        <div className='Header'>{content.content[0].header}</div>
-                        <div className='Text'>
-                            {content.content[0].text.map((text)=>{
-                                return(text
-                                )
-                            })}
-                        </div>
-                    </div>
-                    <div className='ImageBlock'>
-                        <img src={Images[content.images[0]]}/>
-                    </div>
-                </div>);
+            return(<BlockRight content={content} image={Images[content.images[0]]}/>);
         case "block middle":
-            return(
-                <div className='Block'>
-                    <div className='TextBlock'>
-                        <div className='Header'>{content.content[0].header}</div>
-                        <div className='Text'>
-                            {content.content[0].text.map((text)=>{
-                                return(text
-                                )
-                            })}
-                        </div>
-                    </div>
-                    <div className='ImageBlock'>
-                        <img src={Images[content.images[0]]}/>
-                    </div>
-                    <div className='TextBlock'>
-                        <div className='Header'>{content.content[1].header}</div>
-                        <div className='Text'>
-                            {content.content[1].text.map((text)=>{
-                                return(
-                                    <p>
-                                        {text}
-                                    </p>
-                                )
-                            })}
-                        </div>
-                    </div>
-                </div>);
+            return(<BlockMiddle content={content} image={Images[content.images[0]]}/>);
         case "block inside":
-            return(
-                <div className='Block'>
-                    <div className='TextBlock  Without'>
-                        <div>
-                            <div className='Header'>{content.content[0].header}</div>
-                            <div className='Text'>
-                                {content.content[0].text.map((text)=>{
-                                    return(text
-                                    )
-                                })}
-                            </div>
-                        </div>
-                        <img src={Images[content.images[0]]}/>
-                    </div>
-                </div>);
+            return(<BlockInside content={content} image={Images[content.images[0]]}/>);
     }
 }
