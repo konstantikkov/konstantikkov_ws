@@ -14,7 +14,8 @@ export const BlockMiddle = ({content, image}) =>{
                     })}
                 </div>
             </div>
-            <img className='ImageBlock' src={image}/>
+            <img className='ImageBlock' src={image[0]}/>
+            <img className='ImageAlt' src={image[1]}/>
             <div className='TextBlock'>
                 <div className='Header'>{content.content[1].header}</div>
                 <div className='Text'>

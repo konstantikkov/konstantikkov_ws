@@ -14,7 +14,7 @@ export const BlockInside = ({content, image}) =>{
                         })}
                     </div>
                 </div>
-                    <img className='ImageInside' src={image}/>
+                    <img className='ImageInside' src={image[0]}/>
             </div>
         </div>
     )

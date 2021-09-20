@@ -65,7 +65,8 @@ export default {
           }
         ],
         images: [
-            "saoirse_point_at.svg"
+            "saoirse_point_at.svg",
+            "saoirse_face_shy.svg"
         ]
 
     },
@@ -83,7 +84,8 @@ export default {
           }
         ],
         images: [
-          "saoirse_question.svg"
+          "saoirse_question.svg",
+          "saoirse_face_surprise.svg"
         ]
     },
     {
@@ -112,7 +114,8 @@ export default {
         }
       ],
       images: [
-          "saoirse_shy.svg"
+          "saoirse_shy.svg",
+          "saoirse_face_happy.svg"
       ]
       },
     {

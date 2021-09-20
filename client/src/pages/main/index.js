@@ -48,13 +48,13 @@ export const MainPage = ({content}) => {
                 duration:'.third',
                 properties: [
                     {
-                        startValue: 0,
+                        startValue: 0.5,
                         endValue: 1,
                         property: "opacity"
                     },
                     {
-                        startValue: 100,
-                        endValue: 0,
+                        startValue: 0,
+                        endValue: 20,
                         property: "translateY"
                     }
                 ]

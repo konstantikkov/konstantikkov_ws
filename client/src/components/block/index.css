@@ -1,12 +1,20 @@
 .Block{
     display:flex;
-    margin-top: 80px;
     z-index: 30;
 }
-
+.ImageAlt{
+    width:0;
+}
 @media (max-width: 1000px) {
+    .Block{
+        display: block;
+    }
     .ImageBlock{
     width: 0;
+    }
+    .ImageAlt{
+        margin: 20px 0 0 25%;
+        width:50%;
     }
 }
 /*.ImageBlock{*/
@@ -21,6 +29,7 @@ p{
 .TextBlock{
     box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
     z-index: 30;
+    margin-top: 40px;
     padding: 30px;
     min-width: 300px;
     border-radius: 29px;

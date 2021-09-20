@@ -2,9 +2,10 @@
 /*    width:35%;*/
 /*}*/
 
-@media (max-width: 1000px) {
+@media (max-width: 670px) {
     .Middle{
         display: block;
         margin-top: 0;
+        opacity: 1;
     }
 }
