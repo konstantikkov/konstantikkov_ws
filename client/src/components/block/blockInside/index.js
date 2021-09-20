@@ -4,7 +4,7 @@ import styles from './index.css'
 export const BlockInside = ({content, image}) =>{
     return(
         <div className='Block'>
-            <div className='TextBlock  Without'>
+            <div className='TextBlock  Inside'>
                 <div>
                     <div className='Header'>{content.content[0].header}</div>
                     <div className='Text'>
@@ -14,7 +14,7 @@ export const BlockInside = ({content, image}) =>{
                         })}
                     </div>
                 </div>
-                <img src={image}/>
+                    <img className='ImageInside' src={image}/>
             </div>
         </div>
     )

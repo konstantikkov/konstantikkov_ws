@@ -4,7 +4,7 @@ import {Images} from "../../../images";
 
 export const BlockMiddle = ({content, image}) =>{
     return(
-        <div className='Block'>
+        <div className='Block Middle'>
             <div className='TextBlock'>
                 <div className='Header'>{content.content[0].header}</div>
                 <div className='Text'>
@@ -14,9 +14,7 @@ export const BlockMiddle = ({content, image}) =>{
                     })}
                 </div>
             </div>
-            <div className='ImageBlock'>
-                <img src={image}/>
-            </div>
+            <img className='ImageBlock' src={image}/>
             <div className='TextBlock'>
                 <div className='Header'>{content.content[1].header}</div>
                 <div className='Text'>

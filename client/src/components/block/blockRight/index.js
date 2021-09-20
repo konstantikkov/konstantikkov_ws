@@ -13,8 +13,6 @@ export const BlockRight = ({content, image}) =>{
                     })}
                 </div>
             </div>
-            <div className='ImageBlock'>
-                <img src={image}/>
-            </div>
+            <img className='ImageBlock' src={image}/>
         </div>)
 }

@@ -4,6 +4,16 @@
     z-index: 30;
 }
 
+@media (max-width: 1000px) {
+    .ImageBlock{
+    width: 0;
+    }
+}
+/*.ImageBlock{*/
+/*    position: ;*/
+/*    width: 30%;*/
+/*}*/
+
 p{
     margin-bottom: 20px;
 }
@@ -16,9 +26,6 @@ p{
     border-radius: 29px;
 }
 
-.TextBlock.Without{
-    display: flex;
-}
 
 .Header{
     font-style: normal;

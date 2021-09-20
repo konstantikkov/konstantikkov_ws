@@ -4,9 +4,7 @@ import styles from './index.css'
 export const BlockLeft = ({content, image}) =>{
     return(
         <div className='Block'>
-            <div className='ImageBlock'>
-                <img src={image}/>
-            </div>
+            <img className='ImageBlock' src={image}/>
             <div className='TextBlock'>
                 <div className='Header'>{content.content[0].header}</div>
                 <div className='Text'>

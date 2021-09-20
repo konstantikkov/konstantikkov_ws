@@ -25,3 +25,10 @@
 .HeaderBlock > ul > li > img{
     margin-right: 10px;
 }
+@media (max-width: 670px) {
+    .HeaderBlock{
+        display: list-item;
+        margin: auto;
+        height:150px;
+    }
+}

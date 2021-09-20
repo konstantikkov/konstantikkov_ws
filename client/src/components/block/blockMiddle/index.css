@@ -1,0 +1,10 @@
+/*.Middle{*/
+/*    width:35%;*/
+/*}*/
+
+@media (max-width: 1000px) {
+    .Middle{
+        display: list-item;
+        margin-top: 0;
+    }
+}
