@@ -11,7 +11,7 @@
 /*}*/
 @media (max-width: 600px) {
     .Inside{
-        display: list-item;
+        display: block;
     }
     .Inside > .ImageInside{
         width: 50%;
