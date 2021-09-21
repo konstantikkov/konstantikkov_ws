@@ -6,10 +6,18 @@
 .TextBlock{
     margin-right: auto;
 }
+
+.Robot{
+    width:200px;
+    margin: auto;
+}
+
 :root {
     --main-red: #bf3220;
     --eye: #2ea6e3;
 }
+
+
 
 .black {
     background: black;
