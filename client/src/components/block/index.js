@@ -13,7 +13,7 @@ export const Block = ({content}) => {
         case "block without":
             return(<BlockWithout content={content}/>);
         case "block left":
-            return(<BlockLeft content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
+            return(<BlockLeft content={content} illustration={content.illustration} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
         case "block right":
             return(<BlockRight content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
         case "block middle":

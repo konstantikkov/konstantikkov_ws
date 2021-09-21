@@ -11,7 +11,6 @@ import telegram from './telegram.svg'
 import discord from './discord.svg'
 import mail from './mail.svg'
 
-
 import saoirse_point_at from './saoirse_point_at.svg';
 import saoirse_happy from './saoirse_happy.svg';
 import saoirse_shy from './saoirse_shy.svg';

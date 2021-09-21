@@ -1,7 +1,7 @@
 .HeaderBlock{
     box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
     display:flex;
-    height:100px;
     padding: 30px;
     border-radius: 0 0 29px 29px;
 }
@@ -27,8 +27,8 @@
 }
 @media (max-width: 670px) {
     .HeaderBlock{
+        width: 100%;
         display: list-item;
         margin: auto;
-        height:150px;
     }
 }

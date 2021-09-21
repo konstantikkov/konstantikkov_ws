@@ -6,12 +6,21 @@
 .ImageAlt{
     width:0;
 }
+
+.Illustration{
+    margin-left: auto;
+}
+
 @media (max-width: 1000px) {
     .Block{
         display: block;
     }
+    .Illustration{
+        width: 20%;
+        margin: auto auto 40px;
+    }
     .ImageBlock{
-    width: 0;
+        width: 0;
     }
     .ImageAlt{
         margin: 20px 0 0 40%;
@@ -21,10 +30,6 @@
         margin-bottom: 20px;
     }
 }
-/*.ImageBlock{*/
-/*    position: ;*/
-/*    width: 30%;*/
-/*}*/
 
 p{
     margin-bottom: 20px;
