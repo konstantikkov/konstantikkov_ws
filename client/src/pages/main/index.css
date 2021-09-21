@@ -1,3 +1,6 @@
 .BlockContent{
     margin-top: 54%;
 }
+.BlockContent:first-child > .TextBlock{
+    margin-top: 0;
+}
