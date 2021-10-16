@@ -74,8 +74,40 @@ export const MainPage = ({content}) => {
                         property: "translateX"
                     }
                 ]
+            },
+            {
+                start: '.fifth',
+                duration:'.fifth',
+                properties: [
+                    {
+                        startValue: 0,
+                        endValue: 1,
+                        property: "opacity"
+                    },
+                    {
+                        startValue: -200,
+                        endValue: 0,
+                        property: "translateX"
+                    }
+                ]
+            },
+            {
+                start: '.sixth',
+                duration:'.sixth',
+                properties: [
+                    {
+                        startValue: 0,
+                        endValue: 1,
+                        property: "opacity"
+                    },
+                    {
+                        startValue: 200,
+                        endValue: 0,
+                        property: "translateX"
+                    }
+                ]
             }
-        ]
+        ];
 
     return(
         <React.Fragment>
@@ -92,6 +124,12 @@ export const MainPage = ({content}) => {
                     </Plx>
                     <Plx className='third' parallaxData={[enterAnimation[2]]}>
                         <Block content={content.screens[5]}/>
+                    </Plx>
+                    <Plx className='fifth' parallaxData={[enterAnimation[4]]}>
+                        <Block content={content.screens[7]}/>
+                    </Plx>
+                    <Plx className='sixth' parallaxData={[enterAnimation[5]]}>
+                        <Block content={content.screens[8]}/>
                     </Plx>
                     <Plx className='fourth' parallaxData={[enterAnimation[3]]}>
                         <Block content={content.screens[6]}/>

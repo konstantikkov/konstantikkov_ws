@@ -4,7 +4,7 @@ import styles from './index.css'
 export const BlockWithout = ({content}) =>{
     return(
         <div className='Block'>
-            <div className='TextBlock'>
+            <div className={`TextBlock ${content?.mode ?'MediatorCustom':''}`}>
                 <div className='Header'>{content.content[0].header}</div>
                 <div className='Text'>
                     {content.content[0].text.map((text)=>{

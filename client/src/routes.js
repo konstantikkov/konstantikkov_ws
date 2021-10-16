@@ -1,17 +1,17 @@
 import React from 'react'
 import {MainPage} from "./pages/main";
 import main from "./jsons/main";
-import {TaskPage} from "./pages/univ_task";
+import mediator from "./jsons/mediator";
 import {Switch, Route, Redirect} from 'react-router'
-import task from "./jsons/task";
+import {MediatorPage} from "./pages/mediator";
 
 export const useRoutes = () =>
     <Switch>
         <Route path='/main'>
             <MainPage content={main}/>
         </Route>
-        <Route path={'/task'}>
-            <TaskPage content={task}/>
+        <Route path='/mediator'>
+            <MediatorPage content={mediator}/>
         </Route>
-        <Redirect to={'/main'}/>
+        <Redirect to='/main'/>
     </Switch>;

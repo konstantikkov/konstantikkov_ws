@@ -4,3 +4,288 @@
 .BlockContent:first-child > .TextBlock{
     margin-top: 0;
 }
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Robot{
+    margin-right: 20px;
+}
+
+:root {
+    --main-red: #bf3220;
+    --eye: #2ea6e3;
+}
+
+.black {
+    background: black;
+}
+
+.bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background: transparent;
+    width: 200px;
+    height: 200px;
+}
+
+.top {
+    width: 80px;
+    height: 110px;
+    border-radius: 10px;
+    background: var(--main-red);
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.body-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bodycircle {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    background: var(--main-red);
+    border: 7px solid #000000;
+}
+
+.bodylines {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.line {
+    width: 52px;
+    height: 3px;
+    background: #000000;
+    border-radius: 2px;
+}
+
+.basement {
+    width: 130px;
+    height: 20px;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e7a956), to(#000000));
+    background: linear-gradient(180deg, #e7a956 0%, #000000 100%);
+}
+
+.shoulder {
+    width: 43px;
+    height: 15px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.forearm {
+    width: 15px;
+    height: 43px;
+    border-radius: 10px 0px 0px 0px;
+    position: relative;
+    top: -10px;
+}
+
+.wrist {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid var(--main-red);
+    position: relative;
+    top: -20px;
+    left: -13px;
+}
+
+.left {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.hand {
+    position: relative;
+    top: 20px;
+}
+
+.head {
+    width: 100px;
+    height: 57px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, var(--main-red) 100%);
+    position: relative;
+    top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.eye {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--eye);
+    border: 2px solid #000000;
+}
+
+.antenna {
+    position: relative;
+    top: 75px;
+    left: 110px;
+}
+
+.cir {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+}
+
+.r {
+    width: 2px;
+    height: 22px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    position: relative;
+    top: -53px;
+    left: 17px;
+}
+
+.l {
+    width: 2px;
+    height: 22px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    position: relative;
+    top: -31px;
+    left: 2px;
+}
+.Ilon{
+    display: flex;
+    width:250px;
+    height: 250px;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.IlonWrapper{
+    width:250px;
+    height: 250px;
+    margin-left: 20px;
+}
+.Sambrero{
+    background-image: url("../../images/mask/Sambrero.png");
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+}
+
+.Question{
+    background-image: url("../../images/mask/Question.png");
+    -webkit-flex: 0 0 0;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+    opacity: 0;
+    transition: flex 0.4s ease;
+}
+
+.RocketPlate{
+    -webkit-flex: 0 0 0;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+    opacity: 0;
+}
+
+.Rocket{
+    position: relative;
+}
+
+.Phrase{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
+}
+
+
+.Ilon:hover .Question{
+    flex: 1 1 100%;
+    opacity: 1;
+    transition:flex 1s ease, opacity 2s ease;
+}
+
+.Ilon:hover .Sambrero{
+    flex: 0 0 0;
+    transition: flex 1s ease;
+    opacity: 1;
+}
+
+.Ilon:active .Question{
+    flex: 0 0 0;
+    opacity: 0;
+    transition: opacity 0s ease;
+}
+
+.Ilon:active .RocketPlate{
+    flex: 1 1 100%;
+    opacity: 1;
+    border-radius: 50%;
+    border: black solid 5px;
+    background-color: peru;
+    transition: background-color 3s ease, border 2s ease, border-radius 1s ease;
+}
+
+.Ilon:active .Rocket{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/mask/Rocket.png");
+    transform: translate(700px, -1000px);
+    transition: transform 6s ease;
+}

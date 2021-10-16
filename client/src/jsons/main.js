@@ -109,7 +109,7 @@ export default {
               <p>There people can see stats of hospitalization of Soviet soldiers on the Eastern Front. Using timeline and annotation visitors are able to interact with the history.</p>,
 
             <p>This project is continuation of my hacaton work in 2019.</p>,
-            <p><u>You can try it here...</u></p>
+            <p><a href={"http://konstantikkov.ru/interactive_map"}>You can try it here...</a></p>
           ]
         }
       ],
@@ -129,6 +129,91 @@ export default {
       images: [
         "saoirse_logo.svg"
       ]
+    },
+    {
+      type: "block left",
+      content: [
+        {
+          header: "Blip, Blup. I'm robot!",
+          text: [
+            <p>Here you can see my first work of "layout and prototyping of websites".<br/></p>,
+            <p>That's just a simple work with some flexes, position absolute and custom margins).<br/></p>,
+            <p>Also It was my first try to create something with SASS.</p>,
+            <p>Pure css and pure beauty...<br/></p>
+          ]
+        }
+      ],
+      images:['Task_1'],
+      illustration:<div className="Robot">
+        <div className="antenna">
+          <div className="cir black"></div>
+          <div className="l black"></div>
+          <div className="r black"></div>
+        </div>
+        <div className="bg">
+
+          <div className="head">
+
+            <div className="eye"></div>
+            <div className="eye"></div>
+            <div className="eye"></div>
+          </div>
+
+          <div className="top">
+            <div className="hand right">
+              <div className="shoulder black"></div>
+              <div className="forearm black"></div>
+              <div className="wrist"></div>
+            </div>
+            <div className="body-content">
+              <div className="bodycircle"></div>
+              <div className="bodylines">
+                <div className="line black"></div>
+                <div className="line black"></div>
+                <div className="line black"></div>
+              </div>
+            </div>
+            <div className="hand left">
+              <div className="shoulder black"></div>
+              <div className="forearm black"></div>
+              <div className="wrist"></div>
+            </div>
+          </div>
+
+          <div className="basement"></div>
+        </div>
+      </div>
+    },
+    {
+      type: "block right",
+      content: [
+        {
+          header: "Welcome, Mister Ilooooon Mask!",
+          text: [
+              <p>This is simple flex animation.<br/></p>,
+              <p>Good jokes and great businessman.<br/></p>
+          ]
+        }
+      ],
+      images:['Task_2'],
+      illustration:
+          <div className="IlonWrapper">
+            <div className="Ilon">
+              <div className="Sambrero"></div>
+              <div className="Question">
+                <div className="Phrase">
+                  Как тебе такое?
+                </div>
+              </div>
+              <div className="RocketPlate">
+                <div className="Rocket">
+                  <div className="Phrase">
+                    Это еще не Тесла!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     },
     {
       type: "footer",

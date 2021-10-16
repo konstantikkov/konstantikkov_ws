@@ -6,6 +6,7 @@ import {BlockLeft} from "./blockLeft";
 import {BlockRight} from "./blockRight";
 import {BlockMiddle} from "./blockMiddle";
 import {BlockInside} from "./blockInside";
+import {BlockBigPicture} from "./blockBigPicture";
 
 export const Block = ({content}) => {
     console.log(content.images)
@@ -15,10 +16,12 @@ export const Block = ({content}) => {
         case "block left":
             return(<BlockLeft content={content} illustration={content.illustration} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
         case "block right":
-            return(<BlockRight content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
+            return(<BlockRight content={content} illustration={content.illustration}  image={[Images[content.images[0]], Images[content.images[1]]]}/>);
         case "block middle":
             return(<BlockMiddle content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
         case "block inside":
             return(<BlockInside content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
+        case "block bigPicture":
+            return(<BlockBigPicture content={content} image={[Images[content.images[0]], Images[content.images[1]]]}/>);
     }
-}
+};

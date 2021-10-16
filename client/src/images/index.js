@@ -17,8 +17,11 @@ import saoirse_shy from './saoirse_shy.svg';
 import saoirse_question from './saoirse_question.svg';
 import saoirse_logo from './saoirse_logo.svg'
 
+import Mediator_example from './mediator/Mediator_example.png'
+
 
 export const Images = {
+    ["Mediator_example.png"]: Mediator_example,
     ["saoirse_point_at.svg"]: saoirse_point_at,
     ["saoirse_happy.svg"]: saoirse_happy,
     ["saoirse_shy.svg"]: saoirse_shy,

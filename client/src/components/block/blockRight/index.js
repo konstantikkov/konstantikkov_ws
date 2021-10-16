@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.css'
 
-export const BlockRight = ({content, image}) =>{
+export const BlockRight = ({content, image, illustration}) =>{
     return(
         <div className='Block'>
             <div className='TextBlock'>
@@ -13,6 +13,7 @@ export const BlockRight = ({content, image}) =>{
                     })}
                 </div>
             </div>
+            <div className="Illustration">{illustration}</div>
             <img className='ImageBlock' src={image[0]}/>
             <img className='ImageAlt' src={image[1]}/>
         </div>)

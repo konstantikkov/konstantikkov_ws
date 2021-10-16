@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e61829e5.chunk.css",
+    "main.js": "/static/js/main.24ca5efb.chunk.js",
+    "main.js.map": "/static/js/main.24ca5efb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86708026.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86708026.js.map",
+    "static/js/2.6f0437bc.chunk.js": "/static/js/2.6f0437bc.chunk.js",
+    "static/js/2.6f0437bc.chunk.js.map": "/static/js/2.6f0437bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e61829e5.chunk.css.map": "/static/css/main.e61829e5.chunk.css.map",
+    "static/js/2.6f0437bc.chunk.js.LICENSE.txt": "/static/js/2.6f0437bc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Pobeda-Regular.e59bb825.ttf",
+    "static/media/MapPlane.css": "/static/media/Leningrad.a85996f7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86708026.js",
+    "static/js/2.6f0437bc.chunk.js",
+    "static/css/main.e61829e5.chunk.css",
+    "static/js/main.24ca5efb.chunk.js"
+  ]
+}
