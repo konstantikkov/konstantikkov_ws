@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-export const Footer = (mode) =>{
+export const Footer = ({mode}) =>{
 
     return(
         <div className={`Footer ${mode ?'MediatorCustom':''}`}>
