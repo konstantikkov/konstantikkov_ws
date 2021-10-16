@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './index.css'
+import {NavLink} from "react-router-dom";
 
 export const BlockInside = ({content, image}) =>{
     return(
@@ -12,6 +13,9 @@ export const BlockInside = ({content, image}) =>{
                             return(text
                             )
                         })}
+                        {
+                            content.content[0]?.links?<NavLink to={content.content[0]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:''
+                        }
                     </div>
                 </div>
                     <img className='ImageInside' src={image[0]}/>

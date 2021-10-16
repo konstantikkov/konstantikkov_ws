@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './index.css'
+import {NavLink} from "react-router-dom";
 
 export const BlockRight = ({content, image, illustration}) =>{
     return(
@@ -11,6 +12,9 @@ export const BlockRight = ({content, image, illustration}) =>{
                         return(text
                         )
                     })}
+                    {
+                        content.content[0]?.links?<NavLink to={content.content[0]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:''
+                    }
                 </div>
             </div>
             <div className="Illustration">{illustration}</div>

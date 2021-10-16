@@ -60,7 +60,12 @@ export default {
                 <p>Right now I am developing a new streaming service with unique features.</p>,
                   <p>The main one is an opportunity to combine different audio and video streams in the workspace. Here user is able to custom its own broadcast from web  or desktop applications.</p>,
                     <p>Later, it will be available on IOS and Android.</p>,
-              <p><u>More information about Mediator...</u></p>
+            ],
+            links:[
+              {
+                text: <p><u>More information about Mediator...</u></p>,
+                href: "/mediator"
+              }
             ]
           }
         ],
@@ -78,8 +83,13 @@ export default {
             text: [
               <p>On the 2nd course I had this project with “Magnit” one of Russia's largest food retailers.</p>,
               <p>The main idea of this work was creation of social network for all the staff of Magnit. There people are able to suggest ideas, talk about problems.</p>,
-                  <p>There is an analytic module, where moderators can find different stats of the project.</p>,
-              <p><u>More information about MagnitQA...</u></p>
+                  <p>There is an analytic module, where moderators can find different stats of the project.</p>
+            ],
+            links:[
+              {
+                text: <p><u>More information about Mediator...</u></p>,
+                href: "/still_in_beta"
+              }
             ]
           }
         ],
@@ -107,9 +117,13 @@ export default {
           text: [
               <p>Web application for museum of 2nd World War in Moscow.</p>,
               <p>There people can see stats of hospitalization of Soviet soldiers on the Eastern Front. Using timeline and annotation visitors are able to interact with the history.</p>,
-
             <p>This project is continuation of my hacaton work in 2019.</p>,
-            <p><a href={"http://konstantikkov.ru/interactive_map"}>You can try it here...</a></p>
+          ],
+          links:[
+            {
+              text: <p><u>You can try it here...</u></p>,
+              href: "/interactive_map"
+            }
           ]
         }
       ],

@@ -5,6 +5,7 @@ import mediator from "./jsons/mediator";
 import {Switch, Route, Redirect} from 'react-router'
 import {MediatorPage} from "./pages/mediator";
 import {InteractiveMap} from "./pages/intractive_map";
+import {StillInBetaPage} from "./pages/still_in_beta";
 
 export const useRoutes = () =>
     <Switch>
@@ -16,6 +17,9 @@ export const useRoutes = () =>
         </Route>
         <Route path='/interactive_map'>
             <InteractiveMap/>
+        </Route>
+        <Route path='/still_in_beta'>
+            <StillInBetaPage/>
         </Route>
         <Redirect to='/main'/>
     </Switch>;

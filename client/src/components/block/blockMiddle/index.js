@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './index.css'
 import {Images} from "../../../images";
+import {NavLink} from "react-router-dom";
 
 export const BlockMiddle = ({content, image}) =>{
+    console.log(content)
     return(
         <div className='Block Middle'>
             <div className='TextBlock'>
@@ -26,6 +28,9 @@ export const BlockMiddle = ({content, image}) =>{
                             </p>
                         )
                     })}
+                    {
+                        content.content[1]?.links?<NavLink to={content.content[1]?.links[0]?.href}>{content.content[1]?.links[0]?.text}</NavLink>:''
+                    }
                 </div>
             </div>
         </div>)

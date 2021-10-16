@@ -3,6 +3,7 @@ import saoirse_face_surprise from './saoirse_face_surprise.svg'
 import saoirse_face_shy from './saoirse_face_shy.svg'
 import saoirse_face_angry from './saoirse_face_angry.svg'
 
+import still_in_Beta from './Still_in_Beta.svg'
 
 import balloon_1 from './balloon_1.svg'
 import balloon_2 from './balloon_2.svg'
