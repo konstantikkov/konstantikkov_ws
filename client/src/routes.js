@@ -21,5 +21,5 @@ export const useRoutes = () =>
         <Route path='/still_in_beta'>
             <StillInBetaPage/>
         </Route>
-        <Redirect to='/still_in_beta'/>
+        <Redirect to='/main'/>
     </Switch>;
