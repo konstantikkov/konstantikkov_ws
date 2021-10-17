@@ -13,7 +13,7 @@ export const BlockRight = ({content, image, illustration}) =>{
                         )
                     })}
                     {
-                        content.content[0]?.links?<NavLink to={content.content[0]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:''
+                        content.content[0]?.links? !content.content[0]?.links[0]?.out ? <NavLink to={content.content[0]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:<a href={content.content[0]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</a>:''
                     }
                 </div>
             </div>

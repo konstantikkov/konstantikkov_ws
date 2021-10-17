@@ -87,7 +87,8 @@ export default {
             ],
             links:[
               {
-                text: <p><u>More information about Mediator...</u></p>,
+                out: true,
+                text: <p><u>Demo is here...</u></p>,
                 href: "http://konstantikkov.ru:8888"
               }
             ]
