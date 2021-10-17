@@ -88,7 +88,7 @@ export default {
             links:[
               {
                 text: <p><u>More information about Mediator...</u></p>,
-                href: "/still_in_beta"
+                href: "http://konstantikkov.ru:8888"
               }
             ]
           }
