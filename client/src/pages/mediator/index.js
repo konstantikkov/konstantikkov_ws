@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Block} from "../../components/block";
 import styles from './index.css'
 
@@ -8,6 +8,11 @@ import {Footer} from "../../components/footer";
 
 export const MediatorPage = ({content}) => {
     console.log(content);
+
+    useEffect(()=>{
+            window.scroll(0,0)
+    }, []);
+
     const enterAnimation =
         [
             {
