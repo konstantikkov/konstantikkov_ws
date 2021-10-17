@@ -56,4 +56,7 @@ a{
         flex-direction: column;
         align-items: center;
     }
+    .MediatorBlock {
+        width: 100%;
+    }
 }

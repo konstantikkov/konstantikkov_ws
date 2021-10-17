@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c5979ea.chunk.css",
+    "main.js": "/static/js/main.e63d3bec.chunk.js",
+    "main.js.map": "/static/js/main.e63d3bec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.168bb44e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.168bb44e.js.map",
+    "static/js/2.f2bea70c.chunk.js": "/static/js/2.f2bea70c.chunk.js",
+    "static/js/2.f2bea70c.chunk.js.map": "/static/js/2.f2bea70c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1c5979ea.chunk.css.map": "/static/css/main.1c5979ea.chunk.css.map",
+    "static/js/2.f2bea70c.chunk.js.LICENSE.txt": "/static/js/2.f2bea70c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Sambrero.a8de3ca6.png",
+    "static/media/MapPlane.css": "/static/media/Leningrad.a85996f7.png",
+    "static/media/Mediator_example.ad34ecb2.png": "/static/media/Mediator_example.ad34ecb2.png",
+    "static/media/App.css": "/static/media/Montserrat_Regular.087334ca.ttf",
+    "static/media/Still_in_Beta.127f924a.svg": "/static/media/Still_in_Beta.127f924a.svg",
+    "static/media/balloon_1.7e1692d9.svg": "/static/media/balloon_1.7e1692d9.svg",
+    "static/media/balloon_2.72d96f94.svg": "/static/media/balloon_2.72d96f94.svg",
+    "static/media/discord.07636a7d.svg": "/static/media/discord.07636a7d.svg",
+    "static/media/mail.137fdfa6.svg": "/static/media/mail.137fdfa6.svg",
+    "static/media/saoirse_face_angry.c07b8536.svg": "/static/media/saoirse_face_angry.c07b8536.svg",
+    "static/media/saoirse_face_happy.e1ef1225.svg": "/static/media/saoirse_face_happy.e1ef1225.svg",
+    "static/media/saoirse_face_shy.26206289.svg": "/static/media/saoirse_face_shy.26206289.svg",
+    "static/media/saoirse_face_surprise.a896fb4a.svg": "/static/media/saoirse_face_surprise.a896fb4a.svg",
+    "static/media/saoirse_happy.d008fca7.svg": "/static/media/saoirse_happy.d008fca7.svg",
+    "static/media/saoirse_logo.cc820b52.svg": "/static/media/saoirse_logo.cc820b52.svg",
+    "static/media/saoirse_point_at.1c8b0856.svg": "/static/media/saoirse_point_at.1c8b0856.svg",
+    "static/media/saoirse_question.11b3dc0b.svg": "/static/media/saoirse_question.11b3dc0b.svg",
+    "static/media/saoirse_shy.ce328a9d.svg": "/static/media/saoirse_shy.ce328a9d.svg",
+    "static/media/telegram.9f31e661.svg": "/static/media/telegram.9f31e661.svg",
+    "static/media/tree_couple_full.f01d23d6.svg": "/static/media/tree_couple_full.f01d23d6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.168bb44e.js",
+    "static/js/2.f2bea70c.chunk.js",
+    "static/css/main.1c5979ea.chunk.css",
+    "static/js/main.e63d3bec.chunk.js"
+  ]
+}
