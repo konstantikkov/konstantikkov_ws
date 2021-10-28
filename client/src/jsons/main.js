@@ -122,8 +122,9 @@ export default {
           ],
           links:[
             {
+              out: true,
               text: <p><u>You can try it here...</u></p>,
-              href: "/interactive_map"
+              href: "http://konstantikkov.ru:7777"
             }
           ]
         }
