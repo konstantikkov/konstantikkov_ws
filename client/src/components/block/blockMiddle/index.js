@@ -29,7 +29,8 @@ export const BlockMiddle = ({content, image}) =>{
                         )
                     })}
                     {
-                        content.content[1]?.links?<NavLink to={content.content[1]?.links[0]?.href}>{content.content[1]?.links[0]?.text}</NavLink>:''
+                        content.content[1]?.links? !content.content[1]?.links[0]?.out ?
+                            <NavLink to={content.content[1]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:<a href={content.content[1]?.links[0]?.href}>{content.content[1]?.links[0]?.text}</a>:''
                     }
                 </div>
             </div>
