@@ -1,38 +1,21 @@
 import React from 'react'
 import styles from './index.css'
-import {Images} from "../../../images";
-import {NavLink} from "react-router-dom";
+import {TextBlock} from "../TextBlock";
 
-export const BlockMiddle = ({content, image}) =>{
-    console.log(content)
-    return(
-        <div className='Block Middle'>
-            <div className='TextBlock'>
-                <div className='Header'>{content.content[0].header}</div>
-                <div className='Text'>
-                    {content.content[0].text.map((text)=>{
-                        return(text
-                        )
-                    })}
-                </div>
-            </div>
+export const BlockMiddle = ({content, image}) =>
+    <div className='Block Middle'>
+            <TextBlock
+                header={content.content[0].header}
+                links={content.content[0].links}
+                mode={content.mode}
+                text={content.content[0].text}
+            />
             <img className='ImageBlock' src={image[0]}/>
             <img className='ImageAlt' src={image[1]}/>
-            <div className='TextBlock'>
-                <div className='Header'>{content.content[1].header}</div>
-                <div className='Text'>
-                    {content.content[1].text.map((text)=>{
-                        return(
-                            <p>
-                                {text}
-                            </p>
-                        )
-                    })}
-                    {
-                        content.content[1]?.links? !content.content[1]?.links[0]?.out ?
-                            <NavLink to={content.content[1]?.links[0]?.href}>{content.content[0]?.links[0]?.text}</NavLink>:<a href={content.content[1]?.links[0]?.href}>{content.content[1]?.links[0]?.text}</a>:''
-                    }
-                </div>
-            </div>
-        </div>)
-}
+            <TextBlock
+                header={content.content[1].header}
+                links={content.content[1].links}
+                mode={content.mode}
+                text={content.content[1].text}
+            />
+    </div>

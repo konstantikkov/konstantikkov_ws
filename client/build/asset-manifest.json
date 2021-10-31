@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.85bfd60c.chunk.css",
-    "main.js": "/static/js/main.bbfe2004.chunk.js",
-    "main.js.map": "/static/js/main.bbfe2004.chunk.js.map",
+    "main.js": "/static/js/main.4ea71e2a.chunk.js",
+    "main.js.map": "/static/js/main.4ea71e2a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.168bb44e.js",
     "runtime-main.js.map": "/static/js/runtime-main.168bb44e.js.map",
-    "static/js/2.732826cf.chunk.js": "/static/js/2.732826cf.chunk.js",
-    "static/js/2.732826cf.chunk.js.map": "/static/js/2.732826cf.chunk.js.map",
+    "static/js/2.4839a171.chunk.js": "/static/js/2.4839a171.chunk.js",
+    "static/js/2.4839a171.chunk.js.map": "/static/js/2.4839a171.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.85bfd60c.chunk.css.map": "/static/css/main.85bfd60c.chunk.css.map",
-    "static/js/2.732826cf.chunk.js.LICENSE.txt": "/static/js/2.732826cf.chunk.js.LICENSE.txt",
+    "static/js/2.4839a171.chunk.js.LICENSE.txt": "/static/js/2.4839a171.chunk.js.LICENSE.txt",
     "static/media/Mediator_example.ad34ecb2.png": "/static/media/Mediator_example.ad34ecb2.png",
     "static/media/App.css": "/static/media/Montserrat_Regular.087334ca.ttf",
     "static/media/index.css": "/static/media/Sambrero.a8de3ca6.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.168bb44e.js",
-    "static/js/2.732826cf.chunk.js",
+    "static/js/2.4839a171.chunk.js",
     "static/css/main.85bfd60c.chunk.css",
-    "static/js/main.bbfe2004.chunk.js"
+    "static/js/main.4ea71e2a.chunk.js"
   ]
 }
